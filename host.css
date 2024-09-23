@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.stic{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.annoucement {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    /* position: fixed;
+    top: 0; */
+
+
+}
+
+.annoucement a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.annoucement button {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* .navbar */
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    /* height: 80px; */
+    background-color: red;
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    /* gap: 80px; */
+    /* margin-left: 25rem; */
+    list-style: none;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0px 30px;
+}
+
+ul a:hover {
+    background-color: black;
+    color: white;
+    /* border: 2px solid black; */
+    border-radius: 3px;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: continue;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes continue{
+    0%{
+        transform: scale(0.7);
+
+    }
+    25%{
+transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+/* contact */
+
+.contact {
+    width: 100%;
+}
+
+
+
+.row {
+    display: flex;
+    height: 80vh;
+    position: relative;
+
+
+}
+
+.division {
+    width: 60%;
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    
+
+}
+
+.message {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    
+   
+
+}
+
+.row h2 {
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    padding-top: 30px;
+   
+    
+
+
+}
+
+.message img {
+    margin-top: 2rem;
+}
+
+.message h3 {
+    margin-top: 2rem;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.message p {
+    padding: 25px;
+
+}
+
+.message button {
+    width: 200px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+.message button:hover{
+    background-color: black;
+}
+
+.call {
+    overflow: hidden;
+    width: 40%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./hostimg/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* form-section */
+
+.form-section {
+    /* width: 100%;
+    height: 70vh; */
+    /* background-color: blue; */
+    display: flex;
+}
+
+.contact-us {
+    width: 40%;
+    height: inherit;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.contact-us h1 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.contact-us h5 {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 1.4;
+
+}
+
+.contact-us p {
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 900;
+}
+
+.contact-us h6 {
+    padding-top: 10px;
+    font-size: 17px;
+    line-height: 1.1;
+}
+
+form {
+    width: 60%;
+}
+
+form h1 {
+    padding-top: 60px;
+}
+
+form p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.enquiry {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.enquiry input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 80%;
+
+}
+
+.enquiry label {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.enquiry textarea {
+    border-radius: 5px;
+    border: 1px solid orangered;
+    padding: 10px;
+    width: 80%;
+}
+
+form button {
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+form button:hover{
+    background-color: black;
+    /* color: white; */
+}
+
+
+
+
+
+.row1 {
+    width: 100%;
+    height: 30vh;
+    background-color: #222222;
+    margin-top: 150px;
+    position: relative;
+ 
+ }
+ 
+ .logo2 {
+    padding-top: 80px;
+    padding-left: 15rem;
+ }
+ 
+ .app {
+    display: flex;
+    justify-content: end;
+    margin-right: 12rem;
+    position: absolute;
+    top: 33%;
+    left: 80%;
+ }
+ 
+ .app i {
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+ 
+ }
+ .row1 p{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+ }
+ .row1 a{
+    color: #EB5757;
+ }

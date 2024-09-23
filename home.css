@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.stic{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+
+.annoucement {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    /* position: fixed;
+    top: 0; */
+    /* position: sticky;
+    top: 0;
+     */
+
+
+}
+
+.annoucement a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.annoucement button {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* .navbar */
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    /* height: 80px; */
+    background-color: red;
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    /* gap: 80px; */
+    /* margin-left: 25rem; */
+    list-style: none;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0px 30px;
+}
+
+ul a:hover {
+    background-color: black;
+    color: white;
+    /* border: 2px solid black; */
+    border-radius: 3px;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: continue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes continue{
+    0%{
+        transform: scale(0.7);
+
+    }
+    25%{
+transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+.container1 {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./hostimg/hill.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.column1 {
+    width: 50%;
+    color: white;
+    padding-left: 150px;
+    padding-top: 110px;
+
+}
+
+.column1 h1 {
+    font-size: 50px;
+    font-weight: 800;
+    width: 400px;
+
+}
+
+.column1 p {
+    width: 300px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.column1 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid white;
+    
+
+}
+.column1 button:hover{
+    background-color: black;
+}
+
+.column1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+.support {
+    width: 100%;
+    height: 15vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+
+.part12 {
+    width: 500px;
+    height: 110px;
+    margin: 20px;
+    color: black;
+
+}
+
+.part12 p {
+    line-height: 1.2;
+}
+
+.part12 h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+
+.b3 {
+    width: 100%;
+    height: 55vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bt21 {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+
+}
+
+
+.bt21 h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+.bt21 h2 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+
+.bt21 img{
+    height: 110px;
+    width: 150px ;
+    position: absolute;
+    left: 72%;
+    bottom: 0;
+    top: 85%;
+    /* rotate: 90deg; */
+   
+}
+
+/* .b21 img :nth-last-child(){
+     margin-left: 100px;
+} */
+
+
+.path {
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+
+.paragraph p {
+    width: 350px;
+    height: 50px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+.fall {
+    width: 100%;
+    height: 70vh;
+    margin-top: 70px;
+    border: 2px solid black;
+    position: relative;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./hostimg/fall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+.hill {
+    text-align: right;
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+}
+
+.hill h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.hill p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.hill button {
+    margin-top: 20px;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.hill a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.open-7 {
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+    margin-top: 40px;
+}
+
+.open-7 p {
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.open-7 h1 {
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+
+
+
+.tent {
+    width: 100%;
+    /* height: 70vh;
+    background-color: black; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.collection {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: blue;
+
+}
+
+.collection img {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.pounds {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.pounds a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+}
+
+.pounds button {
+
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    border: none;
+}
+
+.pounds button:hover{
+    background-color: black;
+}
+
+.view-all{
+    width: 100%;
+    margin-top: 50px;
+   position: relative;
+
+}
+.view-all button{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+}
+
+.view-all button:hover{
+    background-color: red;
+}
+.view-all a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+.text {
+    width: 100%;
+     height: 80vh;
+    /* background-color: blue; */ 
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+ .text-box {
+    width: 50%; 
+    
+    /* height: 750px; */
+    background-color: black;
+    border-radius: 5px;
+    color: whitesmoke;
+    position: relative;
+    
+}
+
+.text-box h1 {
+    padding-top: 50px;
+    padding-left: 13rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text-box p {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-box h4 {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.text-box h6 {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.text-box h3 {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.text-box h2 {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.text-box h5 {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    /* font-size: 17px;
+    line-height: 1.3; */
+}
+
+
+.img{
+    width: 500px;
+    height: 450px;
+    /* background-image: url(./hostimg/walking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; */
+    margin-top: 40px;
+   /* border-radius: 5px; */
+   
+   
+}
+.img img {
+
+    width: 500px;
+    height: 450px;
+    float: left;
+    position: absolute;
+    z-index: 3;
+    /* left: 0; */
+    left: 200px;
+    border-radius: 5px;
+    
+}
+
+
+.row {
+    width: 100%;
+    height: 30vh;
+    background-color: #222222;
+    margin-top: 50px;
+    position: relative;
+ 
+ }
+ 
+ .logo1 {
+    padding-top: 80px;
+    padding-left: 15rem;
+ }
+ 
+ .app {
+    display: flex;
+    justify-content: end;
+    margin-right: 12rem;
+    position: absolute;
+    top: 33%;
+    left: 80%;
+ }
+ 
+ .app i {
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+ 
+ }
+ .row p{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+ }
+ .row a{
+    color: #EB5757;
+ }
